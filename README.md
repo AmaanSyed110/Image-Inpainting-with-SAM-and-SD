@@ -52,3 +52,6 @@ plt.imshow(inpainted_image)
 plt.show()
 ```
 
+## Contributions
+Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
+
