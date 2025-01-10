@@ -1,7 +1,7 @@
 # Image-Inpainting-with-SAM-and-SD
 
 ## Overview
-This project demonstrates advanced image inpainting using the Segment Anything Model (SAM) to identify regions of interest and Stable Diffusion to replace those regions with new image content based on a text prompt. The pipeline efficiently integrates machine learning models to achieve high-quality inpainted images while leveraging GPU acceleration.
+This project demonstrates advanced image inpainting using the Segment Anything Model (SAM) and Stable Diffusion to deliver state-of-the-art results. SAM is employed to precisely identify regions of interest in the image, providing an accurate mask for the inpainting process. Once these regions are detected, Stable Diffusion is utilized to seamlessly replace the identified areas with new content generated based on a given text prompt, ensuring the inpainted content aligns with the user’s intent. The pipeline is designed to efficiently integrate these cutting-edge machine learning models, leveraging their strengths to produce high-quality and context-aware results. By utilizing GPU acceleration, the process achieves remarkable speed and performance, making it suitable for real-world applications such as creative content generation, image restoration, and object removal.
 
 ## Key Features
 - **Image Segmentation**: Utilizes SAM to create precise masks for regions of interest.
